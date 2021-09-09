@@ -1,0 +1,6 @@
+[submodule "external/simple-xercesc"]
+	path = external/simple-xercesc
+	url = git@github.com:twyleg/simple-xercesc.git
+[submodule "external/spdlog"]
+	path = external/spdlog
+	url = git@github.com:gabime/spdlog.git

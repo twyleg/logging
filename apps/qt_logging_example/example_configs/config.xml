@@ -1,0 +1,18 @@
+<Config>
+
+	<Logging>
+		<LogLevel defaultLogLevel="Info">
+			<Module name="test_module_b" logLevel="Debug"/>
+			<Module name="test_module_c" logLevel="Error"/>
+		</LogLevel>
+		<Sinks>
+			<ConsoleSink/>
+			<SingleFileSink outputDir="./log"/>
+			<RotatingFileSink outputDir="./log/rotating" maxSize="1024" maxNumFiles="2"/>
+			<TimestampFileSink outputDir="./log"/>
+		</Sinks>
+	</Logging>
+
+	<Foo>Foobar</Foo>
+
+</Config>
